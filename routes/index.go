@@ -3,7 +3,7 @@ package routes
 import (
 	"github.com/gorilla/mux"
 
-	"github.com/sudhanshu-chauhan/gopad/controllers"
+	"gopad/controllers"
 )
 
 func GetIndexRoutes() mux.Router {

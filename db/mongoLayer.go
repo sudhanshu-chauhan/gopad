@@ -5,7 +5,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/sudhanshu-chauhan/gopad/models"
+	"gopad/models"
+
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 )

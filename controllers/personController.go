@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/sudhanshu-chauhan/gopad/db"
-	"github.com/sudhanshu-chauhan/gopad/models"
+	"gopad/models"
+
+	"gopad/db"
 )
 
 func PostPerson(w http.ResponseWriter, r *http.Request) {

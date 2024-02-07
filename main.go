@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/sudhanshu-chauhan/gopad/routes"
+	"gopad/routes"
 )
 
 func main() {
